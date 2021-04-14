@@ -11,11 +11,20 @@ export const SingUp = () => {
 
 	return (
 		<Container>
-			<Row class="justify-content-center pt-5 mt-5">
-				<Col>
-					<Form>
-						<FormGroup>
-							<h1>Sing In</h1>
+			<Row className="justify-content-center pt-5 mt-5 mr-1">
+				<Col className="col-md-4 formulary">
+					<Form action="">
+						<FormGroup className="text-center pb-3">
+							<h1 className="text-light">Sing In</h1>
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="text" className="form-control" placeholder="Username" />
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="text" className="form-control" placeholder="Password" />
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="submit" className="btn btn-block singin" value="SING IN" />
 						</FormGroup>
 					</Form>
 				</Col>
