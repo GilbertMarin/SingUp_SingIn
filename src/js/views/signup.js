@@ -6,7 +6,7 @@ import { Container, Form, Input, Button, Row, Col, FormGroup } from "react-boots
 
 import "../../styles/demo.scss";
 
-export const SingUp = () => {
+export const SignUp = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
@@ -33,12 +33,12 @@ export const SingUp = () => {
 							<input type="text" className="form-control" placeholder="Confirm Password" />
 						</FormGroup>
 						<FormGroup className="mx-sm-4 pb-3">
-							<input type="submit" className="btn btn-block singin" value="Register Now" />
+							<input type="submit" className="btn btn-block signin" value="Register Now" />
 						</FormGroup>
 						<FormGroup className="text-center">
 							<span>
 								<a href="" className="register">
-									Sing In
+									Sign In
 								</a>
 							</span>
 						</FormGroup>

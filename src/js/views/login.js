@@ -15,7 +15,7 @@ export const Login = () => {
 				<Col className="col-md-4 formulary">
 					<Form action="">
 						<FormGroup className="text-center pb-3">
-							<h1 className="text-light">Sing In</h1>
+							<h1 className="text-light">Sign In</h1>
 						</FormGroup>
 						<FormGroup className="mx-sm-4 pb-3">
 							<input type="text" className="form-control" placeholder="Username" />
@@ -24,7 +24,7 @@ export const Login = () => {
 							<input type="text" className="form-control" placeholder="Password" />
 						</FormGroup>
 						<FormGroup className="mx-sm-4 pb-3">
-							<input type="submit" className="btn btn-block singin" value="SING IN" />
+							<input type="submit" className="btn btn-block signin" value="SIGN IN" />
 						</FormGroup>
 						<FormGroup className="text-center">
 							<span>
