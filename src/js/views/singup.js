@@ -15,7 +15,13 @@ export const SingUp = () => {
 				<Col className="col-md-4 formulary">
 					<Form action="">
 						<FormGroup className="text-center pb-3">
-							<h1 className="text-light">Sing In</h1>
+							<h1 className="text-light">Register</h1>
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="text" className="form-control" placeholder="Name" />
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="text" className="form-control" placeholder="Last Name" />
 						</FormGroup>
 						<FormGroup className="mx-sm-4 pb-3">
 							<input type="text" className="form-control" placeholder="Username" />
@@ -24,7 +30,17 @@ export const SingUp = () => {
 							<input type="text" className="form-control" placeholder="Password" />
 						</FormGroup>
 						<FormGroup className="mx-sm-4 pb-3">
-							<input type="submit" className="btn btn-block singin" value="SING IN" />
+							<input type="text" className="form-control" placeholder="Confirm Password" />
+						</FormGroup>
+						<FormGroup className="mx-sm-4 pb-3">
+							<input type="submit" className="btn btn-block singin" value="Register Now" />
+						</FormGroup>
+						<FormGroup className="text-center">
+							<span>
+								<a href="" className="register">
+									Sing In
+								</a>
+							</span>
 						</FormGroup>
 					</Form>
 				</Col>
